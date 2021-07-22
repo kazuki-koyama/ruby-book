@@ -18,6 +18,7 @@ class ConvertHashSyntaxTest < Minitest::Test
       }
     TEXT
     assert_equal expected, convert_hash_syntax(old_syntax)
+    # メソッドの戻り値を標準出力で確認
     # actual = convert_hash_syntax(old_syntax)
     # puts actual
     # assert_equal expected, actual
