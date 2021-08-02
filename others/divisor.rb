@@ -1,5 +1,5 @@
 def divisor(num)
-  (1..num).select{ |i| num % i == 0 }
+  (1..num).select{ |i| num % i == 0}
   # selectは、与えたブロックが真になるものだけを集めた配列を返す
 end
 
